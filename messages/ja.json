@@ -1,0 +1,330 @@
+{
+  "ai-generate": "AIが生成した写真",
+  "anime": "アニメ",
+  "aspect_ratio": {
+    "label": "アスペクト比",
+    "placeholder": "ビデオのアスペクト比を選択してください"
+  },
+  "auth": {
+    "description": "作成者は認証を有効にしています。以下の共有コードを入力してください",
+    "form": {
+      "confirm_button": "確認",
+      "confirm_button_loading": "検証中",
+      "input_code": "共有コードを入力してください",
+      "remember_code": "共有コードを記憶する"
+    },
+    "title": "コードを共有する必要がある"
+  },
+  "bgm": {
+    "label": "BGMをオンにする"
+  },
+  "btn": {
+    "creating_task": "作成中...",
+    "exceeding_concurrency_limit": "同時に実行できるタスクは最大4つまでです",
+    "generating_image": "生成中...",
+    "ready_to_generate": "生成する"
+  },
+  "butterfly_prompt": "奇妙な斑点で羽を覆われた巨大な青いモルフォ蝶が、熱帯雨林の奥でゆっくりと羽ばたいていた。葉を突き抜けた陽光が翼に降り注ぎ、明るい光を反射した。",
+  "butterfly_title": "蝶",
+  "chameleon_prompt": "超至近距離で撮影すると、カメレオンの肌の質感が細部まではっきりと見えます。色とりどりの熱帯植物が生い茂る中で、ゆっくりと体色を変え、環境に溶け込んでいます。",
+  "chameleon_title": "カメレオン",
+  "chessboard_prompt": "カメラを見下ろすと、古い木製のチェス盤の上に黒と白のチェスの駒が複雑に配置されており、残り数手はわずかで、手がチェスの駒の上でためらっています。",
+  "chessboard_title": "市松模様",
+  "clear": "クリア",
+  "completed": "仕上げる",
+  "created_at": "作成",
+  "delete": "消去",
+  "delete_task_confirm": "選択した履歴を削除するか確認してください（削除後は復元できません）",
+  "download": "ダウンロード",
+  "download_failed": "ダウンロードに失敗しました",
+  "download_success": "ダウンロード成功",
+  "duration": {
+    "label": "動画の長さ",
+    "placeholder": "動画の長さを選択してください"
+  },
+  "effect_scene": {
+    "label": "ビデオエフェクト",
+    "placeholder": "ビデオ効果を選択してください"
+  },
+  "enable_audio": {
+    "label": "BGMの生成"
+  },
+  "end_image": {
+    "placeholder": "最後のフレーム画像をアップロードする"
+  },
+  "enhance_prompt": {
+    "label": "プロンプトの最適化"
+  },
+  "error": "何か問題が発生しました...",
+  "examples": {
+    "refresh": "更新",
+    "title": "例"
+  },
+  "failed": "失敗",
+  "finished_at": "仕上げる",
+  "fps": {
+    "label": "ビデオフレームレート",
+    "placeholder": "ビデオのフレームレートを選択してください"
+  },
+  "general": "一般",
+  "global": {
+    "error": {
+      "code_invalid": "共有コードが無効です。詳細は302.AIをご覧ください",
+      "copy_failed": "コピーに失敗しました",
+      "network_error": "ネットワークサービスエラー。ネットワーク状態を確認するか、後ほど再試行してください",
+      "not_found": "ページが存在しません",
+      "tool_deleted": "このツールは削除されました。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "tool_disabled": "このツールは無効になっています。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "unknown_error": "不明なエラーが発生しました。サポートにお問い合わせください"
+    },
+    "footer": {
+      "copyright_content": "<logo></logo>による提供",
+      "copyright_leading": "AI生成のコンテンツであり、参考用です"
+    },
+    "header": {
+      "github_hyperlink": {
+        "label": "GitHubリポジトリリンク"
+      },
+      "language_switcher": {
+        "switch_language": "言語を切り替える"
+      },
+      "theme_switcher": {
+        "dark": "ダークモード",
+        "light": "ライトモード",
+        "system": "システムデフォルト",
+        "toggle_theme": "テーマを切り替える"
+      },
+      "tool_info": {
+        "description": "現在のツールに関する情報",
+        "title": "について",
+        "trigger": {
+          "label": "ツール情報ポップアップを開く/閉じる"
+        }
+      }
+    }
+  },
+  "golden_fish_prompt": "宇宙の広大な星々を背景に、小さな宇宙飛行士のヘルメットをかぶった金魚が、星がきらめく小さな水槽の中に浮かんでいるように見えます。",
+  "golden_fish_title": "金魚",
+  "higgsfield_motion": {
+    "action_run_fire": "アクションラン + 炎上",
+    "agent_reveal1": "エージェント現れ 1",
+    "agent_reveal2": "エージェント現れ 2",
+    "building_explosion1": "建物爆発 1",
+    "building_explosion2": "建物爆発 2",
+    "building_explosion_disintegration": "建物爆発と崩壊",
+    "car_chasing_building_explosion": "車の追跡 + 建物爆発",
+    "car_crash": "車衝突",
+    "car_explosion1": "車爆発 1",
+    "car_explosion2": "車爆発 2",
+    "crash_zoom_in_face_punch": "クラッシュズームイン + フェイスパンチ",
+    "crash_zoom_in_tentacles1": "クラッシュズームイン + 触手 1",
+    "crash_zoom_in_tentacles2": "クラッシュズームイン + 触手 2",
+    "dirty_lens1": "汚れたレンズ 1",
+    "dirty_lens2": "汚れたレンズ 2",
+    "disintegration1": "崩壊 1",
+    "disintegration2": "崩壊 2",
+    "eyes_in1": "目のズームイン 1",
+    "eyes_in2": "目のズームイン 2",
+    "face_punch1": "フェイスパンチ 1",
+    "face_punch2": "フェイスパンチ 2",
+    "flying1": "飛行 1",
+    "flying2": "飛行 2",
+    "flying_set_on_fire": "飛行 + 炎上",
+    "glam1": "グラム 1",
+    "glam2": "グラム 2",
+    "invisible1": "透明化 1",
+    "invisible2": "透明化 2",
+    "kiss1": "キス 1",
+    "kiss2": "キス 2",
+    "lens_crack": "レンズ亀裂",
+    "lens_flare1": "レンズフレア 1",
+    "lens_flare2": "レンズフレア 2",
+    "levitation1": "浮遊 1",
+    "levitation2": "浮遊 2",
+    "levitation_invisible": "浮遊 + 透明化",
+    "melting1": "溶解 1",
+    "melting2": "溶解 2",
+    "mouth_in1": "口のズームイン 1",
+    "mouth_in2": "口のズームイン 2",
+    "push_to_glass1": "ガラスに押し付ける 1",
+    "push_to_glass2": "ガラスに押し付ける 2",
+    "set_on_fire1": "炎上 1",
+    "set_on_fire2": "炎上 2",
+    "soul_jump1": "ソウルジャンプ 1",
+    "soul_jump2": "ソウルジャンプ 2",
+    "tentacles1": "触手 1",
+    "tentacles2": "触手 2",
+    "thunder_god1": "雷神 1",
+    "thunder_god2": "雷神 2",
+    "thunder_god_levitation": "雷神 + 浮遊",
+    "thunder_god_turning_metal": "雷神 + 金属化",
+    "thunder_god_wind_to_face": "雷神 + 顔に風",
+    "turning_metal1": "金属化 1",
+    "turning_metal2": "金属化 2",
+    "turning_metal_melting": "金属化 + 溶解",
+    "wind_to_face1": "顔に風 1",
+    "wind_to_face2": "顔に風 2"
+  },
+  "high-speed train_prompt": "トンネルをうなり声を上げながら出てくると、車体が太陽の光を受けて輝き、窓の外にはぼやけた田畑と遠くの山々が強烈なスピード感を与えてくれる。",
+  "high-speed train_title": "高速列車",
+  "history": "歴史",
+  "home": {
+    "header": {
+      "title": "ビデオジェネレーター"
+    }
+  },
+  "ice_cream_prompt": "巨大な色鮮やかなアイスクリームボールが太陽の光でゆっくりと溶け、さまざまな色のシロップが流れ込み、夏のビーチを背景に抽象的な芸術的なパターンを形成します。",
+  "ice_cream_title": "アイスクリーム",
+  "image1": {
+    "label": "参考画像1"
+  },
+  "image2": {
+    "label": "参考画像2"
+  },
+  "image3": {
+    "label": "参考画像3"
+  },
+  "image4": {
+    "label": "参考画像4"
+  },
+  "image_generator_aspect_ratio": "画像のアスペクト比",
+  "image_generator_aspect_ratio_placeholder": "画像のアスペクト比を選択してください",
+  "image_generator_model": "画像生成モデル",
+  "image_generator_model_placeholder": "画像を生成したモデルを選択してください",
+  "image_generator_prompt": "画像の説明",
+  "image_generator_prompt_placeholder": "画像の説明を入力してください",
+  "image_generator_title": "AI描画",
+  "image_model_select_label": "画像生成モデル",
+  "image_uploader": {
+    "error": {
+      "file_too_large": "アップロードされた画像ファイルが大きすぎます",
+      "invalid_file_type": "アップロードされたファイルタイプが正しくありません、現在のタイプのファイルはサポートされていません",
+      "upload_failed": "アップロードに失敗しました。後でもう一度お試しください"
+    },
+    "label": "画像アップロード",
+    "or": "または",
+    "placeholder": "クリックして画像をアップロードします"
+  },
+  "lighthouse_prompt": "嵐の夜、大きな波が岩に打ち寄せ、孤独な灯台は暗闇の中で定期的に強い白い光を放ち、風雨を突き抜けて方向を導きます。",
+  "lighthouse_title": "灯台",
+  "lip_sync_tts_content": {
+    "label": "リップシンクライン",
+    "placeholder": "口パクのセリフを入力してください(140文字以内)"
+  },
+  "lip_sync_tts_speaker_id": {
+    "label": "口調",
+    "placeholder": "口調を選択してください"
+  },
+  "mode": {
+    "label": "ビデオモード",
+    "placeholder": "ビデオモードを選択してください"
+  },
+  "model": {
+    "label": "モデル",
+    "placeholder": "モデルを選択してください"
+  },
+  "motion": {
+    "label": "可動範囲",
+    "placeholder": "可動範囲を選択してください"
+  },
+  "motion_model": {
+    "label": "ビデオ生成モード",
+    "placeholder": "ビデオ生成モードを選択してください"
+  },
+  "negative_prompt": {
+    "label": "ネガティブプロンプト",
+    "placeholder": "生成したくないビデオコンテンツを入力してください"
+  },
+  "no_model_found": "モデルが見つかりません",
+  "no_records": "まだ生成されていないレコードはありません",
+  "old_book_prompt": "黄ばんだページと擦り切れた端を持つ古い羊皮紙の本のクローズアップ。窓から差し込む日光と空気中に舞う塵。",
+  "old_book_title": "古い本",
+  "old_tree_prompt": "巨大な古代ガジュマルの木で、気根が空に垂れ下がっています。幹は苔と蔓で覆われています。密集した天蓋を通して、散発的な光点だけが地面に落ちます。",
+  "old_tree_title": "古い木",
+  "only_image": {
+    "label": "最初のフレーム画像"
+  },
+  "parrot_prompt": "ネオンのナイトクラブのダンスフロアを背景に、ミニヘッドフォンを着けたカラフルなオウムが DJ ブースの前に座り、前足でミキサーを巧みに操作しています。",
+  "parrot_title": "オウム",
+  "pending": "待っている...",
+  "penguin_prompt": "吹雪を背景に、サングラスとスーツを着たペンギンが南極の氷の上で旧式の電信機を器用に操作している。",
+  "penguin_title": "ペンギン",
+  "pikaffect": {
+    "label": "ビデオ特殊効果テンプレート",
+    "placeholder": "ビデオエフェクトテンプレートを選択してください"
+  },
+  "pizza_prompt": "スローモーションのクローズアップでは、熱々のピザが持ち上げられ、金色のチーズの長い束が引き出され、湯気が立っており、具材がはっきりと見えます。",
+  "pizza_title": "ピザ",
+  "price": "料金",
+  "processing": "生成中...",
+  "prompt": {
+    "label": "クリエイティブの説明",
+    "placeholder": "生成したいビデオコンテンツを入力してください"
+  },
+  "prompt_optimizer": {
+    "label": "最適化プロンプトの言葉"
+  },
+  "quality": {
+    "label": "ビデオ品質",
+    "placeholder": "ビデオ品質を選択してください"
+  },
+  "rain_prompt": "夜がふけると、街灯の光が雨に濡れたアスファルトの道路に長い影を映し、雨粒が車の窓に水滴となって視界がぼやけます。",
+  "rain_title": "雨",
+  "ramen_prompt": "器に入った熱々の和風ラーメンは、麺がはっきりとしています。チャーシュー、温泉卵、海苔がきれいに並べられています。箸が丼から麺を持ち上げると、スープが飛び散ります。",
+  "ramen_title": "手延べ麺",
+  "random": "ランダム",
+  "re-edit": "再編集",
+  "re-upload": "再アップロード",
+  "remove": "画像の削除",
+  "resolution": {
+    "label": "ビデオ解像度",
+    "placeholder": "ビデオ解像度を選択してください"
+  },
+  "robot_prompt": "廃工場を背景に、腕が軋む古い産業用ロボットがぎこちなく指先で繊細な花を摘もうとしている。",
+  "robot_title": "ロボット",
+  "search_model": "検索モデル",
+  "select_model": "モデルを選択",
+  "size": {
+    "label": "ビデオサイズ",
+    "placeholder": "動画サイズを選択してください"
+  },
+  "sound_effect_switch": {
+    "label": "効果音をオンにする"
+  },
+  "street_performer_prompt": "にぎやかな街角で、大道芸人が使い古されたギターを抱え、目を閉じて愛おしそうに弾き語りする。彼の前には小銭の入った古い帽子が置かれ、歩行者が足早に通り過ぎていく。",
+  "street_performer_title": "大道芸人",
+  "style": {
+    "label": "ビデオスタイル",
+    "placeholder": "ビデオスタイルを選択してください"
+  },
+  "tabs": {
+    "image_to_video": "画像からビデオへ",
+    "text_to_image": "テキストからビデオへ"
+  },
+  "task": {
+    "running_tasks_count": "{count} 件のタスクを実行中"
+  },
+  "template": {
+    "label": "ビデオテンプレート",
+    "placeholder": "ビデオテンプレートを選択してください"
+  },
+  "toast": {
+    "video_task_created_failed": "タスクの作成に失敗しました。もう一度お試しください。",
+    "video_task_created_successfully": "タスクが正常に作成されました。",
+    "video_task_creating": "タスクを作成中です..."
+  },
+  "translation": {
+    "global": {
+      "header": {
+        "github_hyperlink": {
+          "label": "Github Repo"
+        }
+      }
+    }
+  },
+  "use": "この画像を使用してください",
+  "video_model_select_label": "ビデオモデル",
+  "with_audio": {
+    "label": "音声を生成する"
+  }
+}

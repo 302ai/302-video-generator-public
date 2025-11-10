@@ -1,0 +1,330 @@
+{
+  "ai-generate": "AI生成图片",
+  "anime": "动漫",
+  "aspect_ratio": {
+    "label": "视频比例",
+    "placeholder": "请选择视频比例"
+  },
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "bgm": {
+    "label": "开启背景音乐"
+  },
+  "btn": {
+    "creating_task": "创建中...",
+    "exceeding_concurrency_limit": "最多同时运行4个任务",
+    "generating_image": "生成中...",
+    "ready_to_generate": "生成"
+  },
+  "butterfly_prompt": "一只巨大的蓝色闪蝶，翅膀上布满奇特的斑点，在雨林深处缓缓扇动，阳光穿透树叶，洒在它的翅膀上，折射出璀璨的光芒。",
+  "butterfly_title": "蝴蝶",
+  "chameleon_prompt": "超近景，一只变色龙的皮肤纹理细节清晰可见，它正在一片五颜六色的热带植物中缓慢地改变体色，完美融入环境。",
+  "chameleon_title": "变色龙",
+  "chessboard_prompt": "俯视镜头，一个古老的木质棋盘上，黑白棋子错综复杂地排列，只剩下几步棋，一只手悬停在棋子上空，犹豫不决。",
+  "chessboard_title": "棋盘",
+  "clear": "清除",
+  "completed": "完成",
+  "created_at": "创建",
+  "delete": "删除",
+  "delete_task_confirm": " 请确认是否删除选定的历史记录（删除后无法恢复）",
+  "download": "下载",
+  "download_failed": "下载失败",
+  "download_success": "下载成功",
+  "duration": {
+    "label": "视频时长",
+    "placeholder": "请选择视频时长"
+  },
+  "effect_scene": {
+    "label": "视频特效",
+    "placeholder": "请选择视频特效"
+  },
+  "enable_audio": {
+    "label": "生成BGM"
+  },
+  "end_image": {
+    "placeholder": "上传尾帧图片"
+  },
+  "enhance_prompt": {
+    "label": "优化提示词"
+  },
+  "error": "出错了...",
+  "examples": {
+    "refresh": "刷新",
+    "title": "示例"
+  },
+  "failed": "失败",
+  "finished_at": "完成",
+  "fps": {
+    "label": "视频帧率",
+    "placeholder": "请选择视频帧率"
+  },
+  "general": "通用",
+  "global": {
+    "error": {
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "copy_failed": "复制失败",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "github_hyperlink": {
+        "label": "GitHub仓库链接"
+      },
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    }
+  },
+  "golden_fish_prompt": "一个戴着微型宇航员头盔的金鱼，在一个装着闪烁星星的小鱼缸里，仿佛漂浮在太空中，背景是宇宙的浩瀚星辰。",
+  "golden_fish_title": "金鱼",
+  "higgsfield_motion": {
+    "action_run_fire": "动作奔跑 + 着火",
+    "agent_reveal1": "特工现身 1",
+    "agent_reveal2": "特工现身 2",
+    "building_explosion1": "建筑爆炸 1",
+    "building_explosion2": "建筑爆炸 2",
+    "building_explosion_disintegration": "建筑爆炸分解",
+    "car_chasing_building_explosion": "汽车追逐 + 建筑爆炸",
+    "car_crash": "汽车碰撞",
+    "car_explosion1": "汽车爆炸 1",
+    "car_explosion2": "汽车爆炸 2",
+    "crash_zoom_in_face_punch": "冲击放大 + 面部冲击",
+    "crash_zoom_in_tentacles1": "冲击放大 + 触手 1",
+    "crash_zoom_in_tentacles2": "冲击放大 + 触手 2",
+    "dirty_lens1": "脏镜头 1",
+    "dirty_lens2": "脏镜头 2",
+    "disintegration1": "分解效果 1",
+    "disintegration2": "分解效果 2",
+    "eyes_in1": "眼睛放大 1",
+    "eyes_in2": "眼睛放大 2",
+    "face_punch1": "面部冲击 1",
+    "face_punch2": "面部冲击 2",
+    "flying1": "飞行 1",
+    "flying2": "飞行 2",
+    "flying_set_on_fire": "飞行 + 着火",
+    "glam1": "魅力 1",
+    "glam2": "魅力 2",
+    "invisible1": "隐形 1",
+    "invisible2": "隐形 2",
+    "kiss1": "亲吻 1",
+    "kiss2": "亲吻 2",
+    "lens_crack": "镜头破裂",
+    "lens_flare1": "镜头光晕 1",
+    "lens_flare2": "镜头光晕 2",
+    "levitation1": "悬浮 1",
+    "levitation2": "悬浮 2",
+    "levitation_invisible": "悬浮 + 隐形",
+    "melting1": "熔化 1",
+    "melting2": "熔化 2",
+    "mouth_in1": "嘴部放大 1",
+    "mouth_in2": "嘴部放大 2",
+    "push_to_glass1": "玻璃压迫 1",
+    "push_to_glass2": "玻璃压迫 2",
+    "set_on_fire1": "着火 1",
+    "set_on_fire2": "着火 2",
+    "soul_jump1": "灵魂跳跃 1",
+    "soul_jump2": "灵魂跳跃 2",
+    "tentacles1": "触手 1",
+    "tentacles2": "触手 2",
+    "thunder_god1": "雷神 1",
+    "thunder_god2": "雷神 2",
+    "thunder_god_levitation": "雷神 + 悬浮",
+    "thunder_god_turning_metal": "雷神 + 金属化",
+    "thunder_god_wind_to_face": "雷神 + 面部风效",
+    "turning_metal1": "金属化 1",
+    "turning_metal2": "金属化 2",
+    "turning_metal_melting": "金属化 + 熔化",
+    "wind_to_face1": "面部风效 1",
+    "wind_to_face2": "面部风效 2"
+  },
+  "high-speed train_prompt": "从隧道中呼啸而出，车身在阳光下闪烁，窗外是模糊的田野和远山，速度感极强。",
+  "high-speed train_title": "高速列车",
+  "history": "历史记录",
+  "home": {
+    "header": {
+      "title": "视频生成器"
+    }
+  },
+  "ice_cream_prompt": "一个巨大的、色彩鲜艳的冰淇淋球，在阳光下缓慢融化，流淌出各种颜色的糖浆，形成抽象的艺术图案，背景是夏日海滩。",
+  "ice_cream_title": "冰淇淋",
+  "image1": {
+    "label": "参考图1"
+  },
+  "image2": {
+    "label": "参考图2"
+  },
+  "image3": {
+    "label": "参考图3"
+  },
+  "image4": {
+    "label": "参考图"
+  },
+  "image_generator_aspect_ratio": "图片宽高比",
+  "image_generator_aspect_ratio_placeholder": "请选择图片宽高比",
+  "image_generator_model": "生图模型",
+  "image_generator_model_placeholder": "请选择生成图片的模型",
+  "image_generator_prompt": "图片描述",
+  "image_generator_prompt_placeholder": "请输入对图片的描述",
+  "image_generator_title": "AI生图",
+  "image_model_select_label": "生图模型",
+  "image_uploader": {
+    "error": {
+      "file_too_large": "上传的图片文件过大",
+      "invalid_file_type": "上传的文件类型错误，不支持当前类型文件",
+      "upload_failed": "上传失败，请稍后再试"
+    },
+    "label": "上传图片",
+    "or": "或",
+    "placeholder": "点击上传一张图片"
+  },
+  "lighthouse_prompt": "暴风雨的夜晚，巨浪拍打着礁石，孤独的灯塔在黑暗中周期性地发出强烈的白色光束，穿透风雨，指引方向。",
+  "lighthouse_title": "灯塔",
+  "lip_sync_tts_content": {
+    "label": "对口型台词",
+    "placeholder": "请输入对口型的台词（140个字符以内）"
+  },
+  "lip_sync_tts_speaker_id": {
+    "label": "口型音色",
+    "placeholder": "请选择口型音色"
+  },
+  "mode": {
+    "label": "视频模式",
+    "placeholder": "请选择视频模式"
+  },
+  "model": {
+    "label": "模型",
+    "placeholder": "请选择模型"
+  },
+  "motion": {
+    "label": "运动幅度",
+    "placeholder": "请选择运动幅度"
+  },
+  "motion_model": {
+    "label": "视频生成模式",
+    "placeholder": " 请选择视频生成模式"
+  },
+  "negative_prompt": {
+    "label": "负面提示词",
+    "placeholder": "请输入你不想要生成的视频内容"
+  },
+  "no_model_found": "未找到模型",
+  "no_records": "暂无生成记录",
+  "old_book_prompt": "特写，一本古老的羊皮纸书，书页泛黄，边缘磨损，阳光透过窗户洒落在上面，空气中尘埃飞舞。",
+  "old_book_title": "旧书",
+  "old_tree_prompt": "一棵巨大而古老的榕树，气根垂天，盘根错节的树干上爬满了青苔和藤蔓，透过茂密的树冠，只有零星的光斑洒落在地面。",
+  "old_tree_title": "古树",
+  "only_image": {
+    "label": "首帧图片"
+  },
+  "parrot_prompt": "一只色彩斑斓的鹦鹉，头戴迷你耳机，坐在DJ台前，用爪子熟练地操作着混音器，背景是霓虹闪烁的夜店舞池。",
+  "parrot_title": "鹦鹉",
+  "pending": "等待中...",
+  "penguin_prompt": "一只企鹅戴着墨镜，西装革履，在南极冰面上熟练地操作着一台老式电报机，背景是暴风雪。",
+  "penguin_title": "企鹅",
+  "pikaffect": {
+    "label": "视频特效模版",
+    "placeholder": "请选择视频特效模版"
+  },
+  "pizza_prompt": "慢动作特写，一块热腾腾的披萨被提起，金黄的芝士拉出长长的丝，冒着热气，配料清晰可见。",
+  "pizza_title": "披萨",
+  "price": "费用",
+  "processing": "生成中...",
+  "prompt": {
+    "label": "创意描述",
+    "placeholder": "请输入你想要生成的视频内容"
+  },
+  "prompt_optimizer": {
+    "label": "优化提示词"
+  },
+  "quality": {
+    "label": "视频质量",
+    "placeholder": "请选择视频质量"
+  },
+  "rain_prompt": "夜幕降临，路灯的光芒在被雨水打湿的柏油路上反射出长长的拖影，雨滴在车窗上形成水痕，模糊了视线。",
+  "rain_title": "雨",
+  "ramen_prompt": "碗中热气腾腾的日式拉面，面条根根分明，叉烧肉片、温泉蛋和海苔整齐排列，筷子从碗中夹起一缕面条，汤汁四溅。",
+  "ramen_title": "拉面",
+  "random": "随机",
+  "re-edit": "重新编辑",
+  "re-upload": "重新上传",
+  "remove": "删除图片",
+  "resolution": {
+    "label": "视频分辨率",
+    "placeholder": "请选择视频分辨率"
+  },
+  "robot_prompt": "一个老旧的工业机器人，手臂发出吱嘎声，它笨拙地尝试用指尖捏起一朵娇嫩的花朵，背景是废弃的工厂。",
+  "robot_title": "机器人",
+  "search_model": "搜索模型",
+  "select_model": "选择模型",
+  "size": {
+    "label": "视频尺寸",
+    "placeholder": "请选择视频尺寸"
+  },
+  "sound_effect_switch": {
+    "label": "开启音效"
+  },
+  "street_performer_prompt": "熙熙攘攘的街角，一个街头艺人抱着一把磨损的吉他，闭着眼睛深情地弹唱，身前放着一个装有零钱的旧帽子，行人匆匆而过。",
+  "street_performer_title": "街头艺人",
+  "style": {
+    "label": "视频风格",
+    "placeholder": "请选择视频风格"
+  },
+  "tabs": {
+    "image_to_video": "图生视频",
+    "text_to_image": "文生视频"
+  },
+  "task": {
+    "running_tasks_count": "{count} 个任务运行中"
+  },
+  "template": {
+    "label": "视频模版",
+    "placeholder": "请选择视频模版"
+  },
+  "toast": {
+    "video_task_created_failed": "创建任务失败，请重试！",
+    "video_task_created_successfully": "任务创建成功！",
+    "video_task_creating": "任务创建中..."
+  },
+  "translation": {
+    "global": {
+      "header": {
+        "github_hyperlink": {
+          "label": "Github Repo"
+        }
+      }
+    }
+  },
+  "use": "使用这张图片",
+  "video_model_select_label": "视频模型",
+  "with_audio": {
+    "label": "生成音频"
+  }
+}
