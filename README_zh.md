@@ -1,39 +1,45 @@
-# 302 Starter 🚀
+# <p align="center"> 🎬 AI 视频生成器 🚀✨</p>
 
-[English](./README.md) | 简体中文 | [日本語](./README_ja.md)
+<p align="center">AI视频生成器根据文本和图片，通过Luma、Runway gen-3、kling可灵、CogVideoX智谱等业内领先的视频大模型生成高质量的AI视频</p>
 
-一个基于 Next.js 14 的现代化 Web 应用程序启动模板，集成了最新的前端技术栈和最佳实践。
+<p align="center"><a href="https://302.ai/product/detail/26" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
-## ✨ 302.AI介绍 ✨
-[302.AI](https://302.ai)是一个按需付费的AI应用平台，为用户解决AI用于实践的最后一公里问题。
-1. 🧠 集合了最新最全的AI能力和品牌，包括但不限于语言模型、图像模型、声音模型、视频模型。
-2. 🚀 在基础模型上进行深度应用开发，我们开发真正的AI产品，而不是简单的对话机器人
-3. 💰 零月费，所有功能按需付费，全面开放，做到真正的门槛低，上限高。
-4. 🛠 功能强大的管理后台，面向团队和中小企业，一人管理，多人使用。
-5. 🔗 所有AI能力均提供API接入，所有工具开源可自行定制（进行中）。
-6. 💡 强大的开发团队，每周推出2-3个新应用，产品每日更新。有兴趣加入的开发者也欢迎联系我们
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
-## 📖 项目介绍
+![](docs/302_AI_Video_Generator.png)
 
-这是一个功能丰富的 Next.js 启动模板，采用了 App Router 架构，集成了302AI鉴权、国际化、主题切换、表单处理等多个实用功能。项目使用 TypeScript 开发，确保了代码的类型安全性和可维护性。
+来自[302.AI](https://302.ai)的[AI 视频生成器](https://302.ai/product/detail/26)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
-## 📁 项目结构
+## 界面预览
+选择视频模型，输入提示词并设置参数，一键生成高质量AI视频
+![](docs/302_AI_Video_Generator_screenshot_01.png)
 
-```
-src/
-├── actions/      # 服务器操作
-├── api/          # API 路由
-├── app/          # Next.js 应用路由
-├── components/   # React 组件
-├── constants/    # 常量定义
-├── hooks/        # 自定义 React Hooks
-├── i18n/         # 国际化配置
-├── lib/          # 工具库
-├── services/     # 服务层
-├── stores/       # 状态管理
-├── styles/       # 样式文件
-└── utils/        # 工具函数
-```
+上传本地图片或AI生图，输入提示词并设置参数，即可生成高质量AI视频
+![](docs/302_AI_Video_Generator_screenshot_02.png)           
+
+支持多种AI模型生成图片，一键将生成的图片用于AI视频创作
+![](docs/302_AI_Video_Generator_screenshot_03.png)    
+ 
+## 项目特性
+
+### 🧩 多模型支持
+    可根据不同模型提供不同配置选项，包括镜头控制、视频特效
+### 🎛️ 多模式选择
+    提供文生视频和图生视频两种模式，可根据个人需求进行选择
+### 🖼️ AI生图
+    一键生成AI图片，并将其用于视频创作
+### 📜 历史记录
+    保存您的创作历史,记忆不丢失，随时随地都可以下载。
+### 🌓 暗色模式
+    随心切换，保护您的眼睛。
+### 🌐 多语言与国际化支持
+  - 中文界面
+  - English Interface
+  - 日本語インターフェース
+
+## 🚩 未来更新计划
+- [ ] 新增更多视频模型
+
 
 ## 🛠️ 技术栈
 
@@ -49,19 +55,11 @@ src/
 - **代码规范**: ESLint, Prettier
 - **提交规范**: Husky, Commitlint
 
-## 🚀 安装与启动
-
-### ⚙️ 环境要求
-
-- Node.js 18.17 或更高版本
-- pnpm 8.0 或更高版本
-
-### 📥 安装步骤
-
+## 开发&部署
 1. 克隆项目
 ```bash
-git clone [项目地址]
-cd 302-starter
+git clone https://github.com/302ai/302-video-generator-public
+cd 302-video-generator-public
 ```
 
 2. 安装依赖
@@ -86,73 +84,11 @@ pnpm build
 pnpm start
 ```
 
-## ✨ 主要功能
-
-- 🔐 302AI鉴权系统
-- 🌐 国际化支持
-- 🎨 明暗主题切换
-- 📝 表单验证和处理
-- 🔒 类型安全的 API 调用
-- 📦 模块化的组件库
-- 🚀 优化的构建配置
-- 🔧 完整的开发工具链
-
-## 📐 代码规范
-
-项目使用 ESLint 和 Prettier 进行代码格式化和规范检查：
-
-- ✅ ESLint: 代码质量检查
-- 🎨 Prettier: 代码格式化
-- 🔄 Husky: Git hooks
-- 📝 Commitlint: 提交信息规范
-
-运行代码检查：
-```bash
-pnpm lint
-```
-
-## 🤝 贡献指南
-
-1. Fork 项目
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 提交 Pull Request
-
-### 📝 提交规范
-
-项目使用 [Conventional Commits](https://www.conventionalcommits.org/) 规范，提交信息格式如下：
-
-```
-type(scope): description
-
-[optional body]
-
-[optional footer]
-```
-
-常用的 type 类型：
-- ✨ feat: 新功能
-- 🐛 fix: 修复
-- 📚 docs: 文档更新
-- 💄 style: 代码格式
-- ♻️ refactor: 重构
-- ✅ test: 测试
-- 🔧 chore: 构建过程或辅助工具的变动
-
-## ❓ 常见问题
-
-### Q: 如何添加新的语言支持？
-A: 在 `messages` 目录下添加对应语言的翻译文件，并在 `constants/values.ts` 中配置。
-
-### Q: 如何自定义主题？
-A: 修改 `tailwind.config.ts` 文件中的主题配置。
-
-## 💬 技术支持
-
-- 🐛 提交 Issue
-- 📧 联系维护团队
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+## ✨ 302.AI介绍 ✨
+[302.AI](https://302.ai)是一个按需付费的AI应用平台，为用户解决AI用于实践的最后一公里问题。
+1. 🧠 集合了最新最全的AI能力和品牌，包括但不限于语言模型、图像模型、声音模型、视频模型。
+2. 🚀 在基础模型上进行深度应用开发，我们开发真正的AI产品，而不是简单的对话机器人
+3. 💰 零月费，所有功能按需付费，全面开放，做到真正的门槛低，上限高。
+4. 🛠 功能强大的管理后台，面向团队和中小企业，一人管理，多人使用。
+5. 🔗 所有AI能力均提供API接入，所有工具开源可自行定制（进行中）。
+6. 💡 强大的开发团队，每周推出2-3个新应用，产品每日更新。有兴趣加入的开发者也欢迎联系我们
