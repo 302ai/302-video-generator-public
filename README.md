@@ -1,39 +1,43 @@
-# 302 Starter 🚀
+# <p align="center"> 🎬 AI Video Generator 🚀✨</p>
 
-English | [简体中文](./README_zh.md) | [日本語](./README_ja.md)
+<p align="center">The AI Video Generator produces high-quality AI videos from text and images using industry-leading video models such as Luma, Runway gen-3, Kling, and CogVideoX.</p>
 
-A modern web application starter template based on Next.js 14, integrating the latest frontend technology stack and best practices.
+<p align="center"><a href="https://302.ai/product/detail/26" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
-## ✨ About 302.AI ✨
-[302.AI](https://302.ai) is a pay-as-you-go AI application platform, bridging the gap between AI capabilities and practical implementation.
-1. 🧠 Comprehensive AI capabilities: Incorporates the latest in language, image, audio, and video models from leading AI brands.
-2. 🚀 Advanced application development: We build genuine AI products, not just simple chatbots.
-3. 💰 No monthly fees: All features are pay-per-use, fully accessible, ensuring low entry barriers with high potential.
-4. 🛠 Powerful admin dashboard: Designed for teams and SMEs - managed by one, used by many.
-5. 🔗 API access for all AI features: All tools are open-source and customizable (in progress).
-6. 💡 Powerful development team: Launching 2-3 new applications weekly with daily product updates. Interested developers are welcome to contact us.
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
-## 📖 Project Introduction
+![](docs/302_AI_Video_Generator_en.png)
 
-This is a feature-rich Next.js starter template that adopts the App Router architecture and integrates multiple practical features such as 302AI authentication, internationalization, theme switching, and form handling. The project is developed using TypeScript, ensuring code type safety and maintainability.
+This is the open-source version of the [AI Video Generator](https://302.ai/product/detail/26) from [302.AI](https://302.ai/en/). You can directly log in to 302.AI to use the online version with zero code and zero background, or modify and deploy it yourself according to your requirements.
 
-## 📁 Project Structure
+## Interface Preview
+Select a video model, enter the prompt, set the parameters, and generate a high-quality AI video with one click.
+![](docs/302_AI_Video_Generator_en_screenshot_01.png)
 
-```
-src/
-├── actions/      # Server actions
-├── api/          # API routes
-├── app/          # Next.js app router
-├── components/   # React components
-├── constants/    # Constants
-├── hooks/        # Custom React Hooks
-├── i18n/         # Internationalization
-├── lib/          # Libraries
-├── services/     # Services
-├── stores/       # State management
-├── styles/       # Styles
-└── utils/        # Utilities
-```
+Upload a local image or an AI-generated image, enter the prompt and set the parameters, and generate a high-quality AI video.
+![](docs/302_AI_Video_Generator_en_screenshot_02.png)           
+
+Generate images using various AI models, and use the generated images for AI video creation with one click.
+![](docs/302_AI_Video_Generator_en_screenshot_03.png)
+
+## Project Features
+### 🧩 Multi-model Support
+    Different configuration options can be provided for each model, including camera control and video effects.
+### 🎛️ Multiple Modes
+    Offers two modes: text-to-video and image-to-video, which can be selected as needed.
+### 🖼️ AI Image Generation
+    Generate AI images with one click and use them for video creation.
+### 📜 History Records
+    Your creative history is saved, never lost, and can be downloaded anytime, anywhere.
+### 🌓 Dark Mode
+    Easily switch to protect your eyes.
+### 🌍 Multi-language Support
+- Chinese Interface
+- English Interface
+- Japanese Interface
+
+## 🚩 Future Update Plans
+- [ ] Add more video models
 
 ## 🛠️ Tech Stack
 
@@ -49,19 +53,11 @@ src/
 - **Code Standards**: ESLint, Prettier
 - **Commit Standards**: Husky, Commitlint
 
-## 🚀 Installation & Setup
-
-### ⚙️ Requirements
-
-- Node.js 18.17 or higher
-- pnpm 8.0 or higher
-
-### 📥 Installation Steps
-
+## Development & Deployment
 1. Clone the project
 ```bash
-git clone [repository-url]
-cd 302-starter
+git clone https://github.com/302ai/302-video-generator-public
+cd 302-video-generator-public
 ```
 
 2. Install dependencies
@@ -86,73 +82,11 @@ pnpm build
 pnpm start
 ```
 
-## ✨ Key Features
-
-- 🔐 302AI Authentication
-- 🌐 Internationalization
-- 🎨 Light/Dark Theme
-- 📝 Form Validation
-- 🔒 Type-safe API Calls
-- 📦 Modular Components
-- 🚀 Optimized Build
-- 🔧 Complete Development Toolchain
-
-## 📐 Code Standards
-
-The project uses ESLint and Prettier for code formatting and standards:
-
-- ✅ ESLint: Code quality
-- 🎨 Prettier: Code formatting
-- 🔄 Husky: Git hooks
-- 📝 Commitlint: Commit message standards
-
-Run code check:
-```bash
-pnpm lint
-```
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### 📝 Commit Convention
-
-The project follows [Conventional Commits](https://www.conventionalcommits.org/), with the following format:
-
-```
-type(scope): description
-
-[optional body]
-
-[optional footer]
-```
-
-Common types:
-- ✨ feat: New features
-- 🐛 fix: Bug fixes
-- 📚 docs: Documentation
-- 💄 style: Code style
-- ♻️ refactor: Code refactoring
-- ✅ test: Testing
-- 🔧 chore: Build process or tools
-
-## ❓ FAQ
-
-### Q: How to add new language support?
-A: Add translation files in the `messages` directory and configure in `constants/values.ts`.
-
-### Q: How to customize themes?
-A: Modify theme configuration in `tailwind.config.ts`.
-
-## 💬 Support
-
-- 🐛 Submit Issues
-- 📧 Contact Maintenance Team
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## ✨ About 302.AI ✨
+[302.AI](https://302.ai/en/) is an enterprise-oriented AI application platform that offers pay-as-you-go services, ready-to-use solutions, and an open-source ecosystem.✨
+1. 🧠 Comprehensive AI capabilities: Incorporates the latest in language, image, audio, and video models from leading AI brands.
+2. 🚀 Advanced application development: We build genuine AI products, not just simple chatbots.
+3. 💰 No monthly fees: All features are pay-per-use, fully accessible, ensuring low entry barriers with high potential.
+4. 🛠 Powerful admin dashboard: Designed for teams and SMEs - managed by one, used by many.
+5. 🔗 API access for all AI features: All tools are open-source and customizable (in progress).
+6. 💡 Powerful development team: Launching 2-3 new applications weekly with daily product updates. Interested developers are welcome to contact us.
